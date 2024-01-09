@@ -18,11 +18,11 @@ public class Tuan21SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tuan21_second);
         tv1=findViewById(R.id.tun21tv1);
         Intent i1 = getIntent();
-        String chuoi1=i1.getExtras().getString("so1");
-        String chuoi2=i1.getExtras().getString("so2");
-        float so1 = Float.parseFloat(chuoi1);
-        float so2 = Float.parseFloat(chuoi2);
-        float tong = so1+so2;
+        String chuoi1 =i1.getExtras().getString("so1");
+        String chuoi2 =i1.getExtras().getString("so2");
+        float so11 = Float.parseFloat(chuoi1);
+        float so22 = Float.parseFloat(chuoi2);
+        float tong = so11+so22;
 
         tv1.setText(String.valueOf(tong));
 

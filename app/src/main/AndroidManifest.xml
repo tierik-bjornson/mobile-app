@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
         <activity
+            android:name=".tuan312.Tuan312MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".tuan2.Tuan21MainActivity"
             android:exported="true">
             <intent-filter>
@@ -22,15 +25,16 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".tuan2.Tuan21SecondActivity"
+            android:exported="false"></activity>
+        <activity
             android:name=".tuan1.MainActivityT1"
-            android:exported="true">
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="false"
             android:label="@string/app_name"
-            android:theme="@style/Theme.TienApplication"></activity>
+            android:theme="@style/Theme.TienApplication" />
     </application>
 
 </manifest>
