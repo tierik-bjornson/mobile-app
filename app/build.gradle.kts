@@ -50,6 +50,10 @@ android {
 }
 
 dependencies {
+    implementation ("com.android.volley:volley:1.2.1")
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation("com.google.code.gson:gson:2.10.1")
+
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
